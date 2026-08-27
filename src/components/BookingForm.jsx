@@ -42,7 +42,7 @@ function BookingForm() {
 
     emailjs
       .sendForm(
-        "service_1fjw7ay",
+        "service_1z1thi7",
         "template_w3lyrkg",
         form.current,
         "ylrOtJ2yQDMmrIOTO"

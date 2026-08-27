@@ -37,7 +37,7 @@ function VillaBooking() {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_1fjw7ay",
+      "service_1z1thi7",
       "template_0map2lh",
       form.current,
       "ylrOtJ2yQDMmrIOTO"
