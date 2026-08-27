@@ -1,8 +1,8 @@
 const yachts = [
   {
-    title: "Mariora Lady KC",
+    title: "Maiora 99 Lady KC",
     location: "Ibiza Marina",
-    price: "From 12.000€/day",
+    price: "From 9.999€/day",
     images: [
       "/images/yachts/y1.webp",
       "/images/yachts/y2.webp",
@@ -10,9 +10,9 @@ const yachts = [
     ]
   },
   {
-    title: "Mangusta Drift",
+    title: "Mangusta 92 Drift",
     location: "Ibiza Marina",
-    price: "From 9.500€/day",
+    price: "From 9.799€/day",
     images: [
       "/images/yachts/y4.webp",
       "/images/yachts/y5.webp",
@@ -20,9 +20,9 @@ const yachts = [
     ]
   },
   {
-    title: "Mangusta Daya",
+    title: "Mangusta 105 Daya",
     location: "Ibiza Marina",
-    price: "From 9.500€/day",
+    price: "From 13.999€/day",
     images: [
       "/images/yachts/y7.webp",
       "/images/yachts/y8.webp",
@@ -30,9 +30,9 @@ const yachts = [
     ]
   },
   {
-    title: "Leopard (La Romana)",
+    title: "Leopard 102 La Romana",
     location: "Ibiza Marina",
-    price: "From 9.500€/day",
+    price: "From 12.999€/day",
     images: [
       "/images/yachts/y10.webp",
       "/images/yachts/y11.webp",
@@ -40,9 +40,9 @@ const yachts = [
     ]
   },
   {
-    title: "Leopard Aya One",
+    title: "Leopard 90 Aya One",
     location: "Ibiza Marina",
-    price: "From 9.500€/day",
+    price: "From 6.999€/day",
     images: [
       "/images/yachts/y13.webp",
       "/images/yachts/y14.webp",

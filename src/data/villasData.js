@@ -2,7 +2,7 @@ const villas = [
   {
     title: "Can Sinatra",
     location: "Ibiza, España",
-    price: "From 4.500€/night",
+    price: "From 2.000€/night",
     images: [
       "/images/villas/v1.webp",
       "/images/villas/v2.webp",
@@ -12,7 +12,7 @@ const villas = [
   {
     title: "Can Fourteen",
     location: "Ibiza, España",
-    price: "From 6.200€/night",
+    price: "From 2.000€/night",
     images: [
       "/images/villas/v4.webp",
       "/images/villas/v5.webp",
@@ -20,9 +20,9 @@ const villas = [
     ]
   },
   {
-    title: "Aerial Villa",
+    title: "Amazonico",
     location: "Ibiza, España",
-    price: "From 6.200€/night",
+    price: "From 2.285€/night",
     images: [
       "/images/villas/v7.webp",
       "/images/villas/v8.webp",
@@ -30,9 +30,9 @@ const villas = [
     ]
   },
   {
-    title: "Villa 6",
+    title: "Villa Alen",
     location: "Ibiza, España",
-    price: "From 6.200€/night",
+    price: "From 2.000€/night",
     images: [
       "/images/villas/v10.webp",
       "/images/villas/v11.webp",
@@ -42,7 +42,7 @@ const villas = [
   {
     title: "Villa Valeria",
     location: "Ibiza, España",
-    price: "From 6.200€/night",
+    price: "From 1.857€/night",
     images: [
       "/images/villas/v13.webp",
       "/images/villas/v14.webp",

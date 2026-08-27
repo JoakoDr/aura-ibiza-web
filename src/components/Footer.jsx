@@ -23,7 +23,7 @@ function Footer() {
         <div>
           <h4>Contact</h4>
           <p>Ibiza</p>
-          <p>auraibiza.concierge@gmail.com</p>
+          <p>d.decolsa@auraofibiza.com</p>
           <p>+34 643 147 805</p>
         </div>
       </div>
