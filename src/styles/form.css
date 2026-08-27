@@ -1,0 +1,40 @@
+.booking-container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  align-items:center;
+}
+
+.booking-form{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea{
+  background:#151515;
+  border:1px solid #2a2a2a;
+  padding:18px;
+  border-radius:14px;
+  color:white;
+}
+
+.booking-form textarea{
+  min-height:140px;
+}
+
+.booking-form button{
+  padding:18px;
+  border-radius:14px;
+  background:white;
+  color:black;
+  font-weight:600;
+}
+
+@media(max-width:768px){
+  .booking-container{
+    grid-template-columns:1fr;
+  }
+}

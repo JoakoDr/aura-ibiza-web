@@ -1,0 +1,356 @@
+.booking-form-section{
+  padding:120px 8%;
+}
+
+.booking-form-container{
+  max-width:1100px;
+  margin:auto;
+}
+
+.booking-form-header{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.booking-form-header p{
+  letter-spacing:5px;
+  color:#cfcfcf;
+  margin-bottom:20px;
+}
+
+.booking-form-header h2{
+  font-size:72px;
+  line-height:0.95;
+}
+
+/* FORM */
+
+.booking-form{
+  width:100%;
+
+  background:#111;
+
+  padding:60px;
+
+  border-radius:30px;
+
+  border:1px solid #222;
+}
+
+/* GRID */
+
+.form-grid{
+  display:grid;
+
+  grid-template-columns:1fr 1fr;
+
+  gap:24px;
+
+  margin-bottom:24px;
+}
+
+/* INPUTS */
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea{
+  width:100%;
+
+  background:#181818;
+
+  border:1px solid #2b2b2b;
+
+  padding:18px;
+
+  border-radius:16px;
+
+  color:white;
+
+  font-size:16px;
+
+  outline:none;
+
+  font-family:'Inter',sans-serif;
+
+  box-sizing:border-box;
+
+  transition:0.3s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus{
+  border-color:#555;
+}
+
+/* PLACEHOLDERS */
+
+.booking-form input::placeholder,
+.booking-form textarea::placeholder{
+  color:#8a8a8a;
+}
+
+/* ========================= */
+/* MUI DATEPICKER */
+/* ========================= */
+
+.MuiFormControl-root{
+  width:100%;
+}
+
+/* INPUT CONTAINER */
+
+.MuiOutlinedInput-root{
+  height:58px !important;
+
+  border-radius:16px !important;
+
+  background:#181818 !important;
+
+  color:white !important;
+
+  transition:0.3s !important;
+}
+
+/* BORDER */
+
+.MuiOutlinedInput-notchedOutline{
+  border:1px solid #2b2b2b !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+  border-color:#444 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color:#666 !important;
+}
+
+/* LABEL */
+
+.MuiInputLabel-root{
+  color:#8a8a8a !important;
+
+  font-family:'Inter',sans-serif !important;
+}
+
+.MuiInputLabel-root.Mui-focused{
+  color:white !important;
+}
+
+/* INPUT TEXT */
+
+.MuiInputBase-input{
+  color:white !important;
+
+  padding:16px !important;
+
+  font-family:'Inter',sans-serif !important;
+}
+
+/* CALENDAR ICON */
+
+.MuiInputAdornment-root .MuiSvgIcon-root{
+  color:#9a9a9a !important;
+
+  font-size:22px !important;
+
+  transition:0.3s;
+}
+
+.MuiInputAdornment-root .MuiSvgIcon-root:hover{
+  color:white !important;
+}
+
+/* ICON BUTTON */
+
+.MuiIconButton-root{
+  background:transparent !important;
+}
+
+.MuiIconButton-root:hover{
+  background:rgba(255,255,255,0.05) !important;
+}
+
+/* ========================= */
+/* CALENDAR POPUP */
+/* ========================= */
+
+.MuiPaper-root{
+  background:#181818 !important;
+
+  color:white !important;
+
+  border-radius:24px !important;
+
+  border:1px solid #2b2b2b !important;
+
+  box-shadow:0 20px 60px rgba(0,0,0,0.45) !important;
+}
+
+/* HEADER */
+
+.MuiPickersCalendarHeader-root{
+  padding:16px 20px !important;
+}
+
+.MuiPickersCalendarHeader-label{
+  color:white !important;
+
+  font-weight:600 !important;
+
+  font-size:16px !important;
+
+  font-family:'Inter',sans-serif !important;
+}
+
+/* DAYS HEADER */
+
+.MuiDayCalendar-weekDayLabel{
+  color:#777 !important;
+
+  font-size:13px !important;
+
+  font-weight:500 !important;
+}
+
+/* DAYS */
+
+.MuiPickersDay-root{
+  color:white !important;
+
+  font-size:14px !important;
+
+  transition:0.2s !important;
+}
+
+.MuiPickersDay-root:hover{
+  background:#333 !important;
+}
+
+.MuiPickersDay-root.Mui-selected{
+  background:white !important;
+
+  color:black !important;
+}
+
+/* NAVIGATION BUTTONS */
+
+.MuiPickersArrowSwitcher-button{
+  color:white !important;
+}
+
+/* MONTH / YEAR SELECT */
+
+.MuiPickersMonth-monthButton,
+.MuiPickersYear-yearButton{
+  color:white !important;
+
+  border-radius:14px !important;
+
+  transition:0.2s !important;
+}
+
+.MuiPickersMonth-monthButton:hover,
+.MuiPickersYear-yearButton:hover{
+  background:#333 !important;
+}
+
+.MuiPickersMonth-monthButton.Mui-selected,
+.MuiPickersYear-yearButton.Mui-selected{
+  background:white !important;
+
+  color:black !important;
+}
+
+/* TEXTAREA */
+
+.booking-form textarea{
+  resize:none;
+
+  margin-bottom:24px;
+
+  min-height:160px;
+}
+
+/* BUTTON */
+
+.booking-form button{
+  width:100%;
+
+  padding:18px;
+
+  border-radius:16px;
+
+  background:white;
+  color:black;
+
+  font-weight:600;
+  font-size:16px;
+
+  transition:0.3s;
+
+  border:none;
+
+  cursor:pointer;
+}
+
+.booking-form button:hover{
+  transform:translateY(-2px);
+}
+
+/* SUCCESS */
+
+.success-message{
+  display:block;
+
+  margin-top:20px;
+
+  text-align:center;
+
+  color:#25D366;
+}
+
+/* TABLET */
+
+@media(max-width:992px){
+
+  .booking-form-header h2{
+    font-size:54px;
+  }
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .booking-form-section{
+    padding:90px 6%;
+  }
+
+  .booking-form{
+    padding:32px 20px;
+
+    border-radius:24px;
+  }
+
+  .form-grid{
+    grid-template-columns:1fr;
+
+    gap:18px;
+  }
+
+  .booking-form-header h2{
+    font-size:42px;
+  }
+
+  .MuiPaper-root{
+    border-radius:20px !important;
+  }
+
+  .MuiOutlinedInput-root{
+    height:56px !important;
+  }
+
+}

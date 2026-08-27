@@ -1,0 +1,40 @@
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+  margin-top:60px;
+}
+
+.service-card{
+  height:420px;
+  background-size:cover;
+  background-position:center;
+  border-radius:24px;
+  overflow:hidden;
+  position:relative;
+}
+
+.card-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to top, rgba(0,0,0,.8), transparent);
+  display:flex;
+  align-items:flex-end;
+  padding:32px;
+}
+
+.card-overlay h3{
+  font-size:36px;
+}
+
+@media(max-width:992px){
+  .services-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:600px){
+  .services-grid{
+    grid-template-columns:1fr;
+  }
+}

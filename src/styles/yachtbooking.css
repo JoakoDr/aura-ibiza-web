@@ -1,0 +1,93 @@
+.yacth-section{
+  position:relative;
+
+  min-height:100vh;
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  padding-top:160px;
+
+  overflow:hidden;
+}
+
+.yacth-overlay{
+  position:absolute;
+  inset:0;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.75),
+      rgba(0,0,0,0.88)
+    );
+
+  z-index:1;
+}
+
+.yacth-content{
+  position:relative;
+  z-index:2;
+}
+
+.yacth-hero{
+  text-align:center;
+
+  margin-bottom:80px;
+}
+
+.yacth-hero p{
+  letter-spacing:5px;
+  color:#d6d6d6;
+
+  margin-bottom:24px;
+}
+
+.yacth-hero h1{
+  font-size:88px;
+  line-height:0.92;
+
+  margin-bottom:28px;
+}
+
+.yacth-hero span{
+  display:block;
+
+  max-width:700px;
+
+  margin:auto;
+
+  font-size:18px;
+  line-height:1.8;
+
+  color:#dddddd;
+}
+
+@media(max-width:992px){
+
+  .yacth-hero h1{
+    font-size:62px;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .yacth-section{
+    padding-top:130px;
+  }
+
+  .yacth-hero{
+    margin-bottom:50px;
+  }
+
+  .yacth-hero h1{
+    font-size:46px;
+  }
+
+  .yacth-hero span{
+    font-size:16px;
+  }
+
+}
