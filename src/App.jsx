@@ -20,10 +20,10 @@ function App() {
         <Route path="/villas" element={<Villas />} />
         <Route path="/yachts" element={<Yachts />} />
         <Route path="/planificar" element={<Planificar />} />
-        <Route path="/yacht-booking" element={<YachtBooking />}/>
-        <Route path="/villa-booking" element={<VillaBooking />}/>
+        <Route path="/yacht-booking" element={<YachtBooking />} />
+        <Route path="/villa-booking" element={<VillaBooking />} />
       </Routes>
-      
+
       <WhatsAppButton />
     </>
   );
